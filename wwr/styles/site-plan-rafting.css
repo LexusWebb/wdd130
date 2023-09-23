@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 :root{
-    --primary-color:#FEFAE0
-    --secondary-color:#606C38
-    --accent1-color:#DDA15E
-    --accent2-color:#BC6C25
+    --primary-color: #606C38;
+    --secondary-color: #BC6C25;
+    --accent1-color:  #283618;
+    --accent2-color: #DDA15E;
 
-    --heading-font: 'Inter', sans-serif;
-    --paragragh-font: 'Inter', sans-serif;
+    --heading-font:'Inter', sans-serif;
+    --paragragh-font:'Inter', sans-serif;
 
-    --nav-background-color:
-    --nav-link-color:
-    --nav-hover-link-color:
-    --nav-hover-background-color:
+    --nav-background-color: #b6b087;
+    --nav-link-color: #283618;
+    --nav-hover-link-color: #283618;
+    --nav-hover-background-color: #7c886f;
 }
 
 body{
