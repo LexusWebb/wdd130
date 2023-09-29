@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+:root{
+    --primary-color: #606C38;
+    --secondary-color: #BC6C25;
+    --accent1-color:  #283618;
+    --accent2-color: #DDA15E;
+
+    --heading-font:'Inter', sans-serif;
+    --paragragh-font:'Inter', sans-serif;
+
+    --nav-background-color: #b6b087;
+    --nav-link-color: #283618;
+    --nav-hover-link-color: #283618;
+    --nav-hover-background-color: #7c886f;
+}
+
+
+.hero div{
+    position: relative;
+}
+h1{
+    position: absolute;
+}
+
+article{
+    position: absolute;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img{
+    float: right;
+}
+
+body{
+    font-family: var(--paragragh-font);
+    max-width: 960px;
+    padding: 20px;
+}
