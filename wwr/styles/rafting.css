@@ -28,11 +28,12 @@ section{
 }
 
 .hero h1{
-    color: #BC6C25;
+    color: #fefefe;
     position: absolute;
     top: 10%;
-    left: 23%;
-    background-color: rgb(70, 78, 78);
+    left: 0%;
+    background-color: #DDA15E; opacity: .8;
+    width: 80%;
 }
 
 .hero article{
@@ -41,12 +42,12 @@ section{
 
 .hero img{
     display: block;
-    width: 600px;
+    width: 900px;
     height: 400px;
 }
 
 article{
-    width: 100rem;
+    width: 300rem;
     text-align: center;
     position: relative;
 }
@@ -54,7 +55,7 @@ article{
 .centered img{
     width: 150px;
     height: auto;
-    padding: 2px;
+    padding: 10px;
     float: right;
 }
 .centered {
@@ -62,7 +63,11 @@ article{
     top: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
-    background-color: #283618; opacity: 1;
-    width: 75%;
+    background-color: #7c886f; opacity: .8;
+    width: 73%;
+    height: 30%;
+}
+
+.centered p{
     height: 30%;
 }
