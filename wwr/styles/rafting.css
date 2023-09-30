@@ -15,26 +15,54 @@
     --nav-hover-background-color: #7c886f;
 }
 
-h1{
-    position: absolute;
+main{
+    width: 900px;
 }
 
-article{
+section{
+    width: 900px;
+}
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+.hero h1{
+    color: #BC6C25;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    background-color: rgb(70, 78, 78);
+}
+
+.hero article{
     position: absolute;
 }
 
 .hero img{
     display: block;
-    width: 100%;
-    height: auto;
+    width: 600px;
+    height: 400px;
 }
 
-article img{
+article{
+    width: 100rem;
+    text-align: center;
+    position: relative;
+}
+
+.centered img{
+    width: 150px;
+    height: auto;
+    padding: 2px;
     float: right;
 }
-
-body{
-    font-family: var(--paragragh-font);
-    max-width: 960px;
-    padding: 20px;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #283618; opacity: 1;
+    width: 75%;
+    height: 30%;
 }
