@@ -47,3 +47,8 @@ label {
 input[type="button"] {
     background-color: #7878c6;
 }
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+}

@@ -3,43 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>'HTML', 'CSS', and 'Quiz' terms</title>
+    <meta name="description" content="Lexus Webb's BYUI WDD 130 Quiz Assignment">
+    <meta name="author" content="Lexus Webb">
 
     <link rel="stylesheet" href="styles/quiz.css">
 
 </head>
 <body>
+    <h1>Quiz Assignment</h1>
     <form>
         <label for="q1">What is the html code to link a stylesheet to a html page?</label><br>
         <input type="text" id="q1" name="q1">
-    </form>
-    <form>
-        <label for="q2">What advice would you give to a student who is having trouble with a picture showing up in Github when it shows up in the live server?</label>
-        <input type="text" id="q2" name="q2">
-    </form>
-
     
-    <form>
-        <label for="q3"> A student asks how to combine the table th and the td rules together in CSS because they share the same CSS declarations.
-            Which of the following CSS rule combinations is correct?
-            <input type="radio" id="q3" name="q3" value="th, td">
-            th, td
-        </label><br>
-        <label for="q3">
-            <input type="radio" id="q3" name="q3" value="th + td">
-            th + td
-        </label><br>
-        <label for="q3">
-            <input type="radio" id="q3" name="q3" value="th > td">
-            th > td
-        </label>
-    </form>
-    <form>
-        <p>What is width of the border bottom given? </p>
-        <label for="q4">border-bottom: 10px solid #000;</label><br>
-        <input type="integer" id="q4" name="q4">
-    </form>
-    <Form>
+        <label for="q2">What advice would you give to a student who is having trouble with a picture showing up in Github when it shows up in the live server?</label>
+        <input type="textarea" id="q2" name="q2">
+    
+        <label for="q3">Choose a pet:</label>
+        <select name="q3" id="q3">
+            <option value="">--Please choose an option--</option>
+            <option value="th + td">th + td</option>
+            <option value=" th, td"> th, td</option>
+            <option value="th > td">th > td</option>
+        </select>
+    
+        <label for="q4">What is width of the border bottom given? border-bottom: 10px solid #000;:</label>
+        <input type="number" id="q4" name="q4" min="1" max="20" />
+
         <input type="button" value="Submit Quiz">
     </Form>
 </body>
