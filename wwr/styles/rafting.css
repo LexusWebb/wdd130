@@ -173,7 +173,7 @@ h2{
 /*Form ccs*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .container p{
@@ -193,8 +193,8 @@ h2{
     background-color: #eee;
     display: grid;
     grid-template-areas: "." "form";
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
     font-size: small;
   }
   
