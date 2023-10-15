@@ -1,0 +1,93 @@
+form{
+    width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Create a two-column grid layout */
+
+  /* Adjust grid properties to position the form on the right side */
+  grid-template-areas:". form"; /
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+label{
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, select, textarea, radio {
+    padding: 0.5rem;
+    font-size: .8rem;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  form {
+    width: 300px;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    grid-template-areas: "." "form"; /* Correct grid-template-areas */
+    grid-column-start: 2; /* Start at the second column */
+    grid-column-end: 3;   /* End at the third column */
+  }
+  
+  fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+  
+  label {
+    text-align: center;
+    padding-right: 1rem;
+  }
+
+input[type='text'],
+input[type='email'],
+textarea {
+  padding: 0.5rem;
+}
+  
+  input, select, textarea, radio {
+    padding: 0.5rem;
+  }
+
+
+input[type='radio']{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    float: right; /* Move radio buttons to the right */
+    margin-right: 10px;
+}
+
+label {
+    clear: left;
+}
+
+input[type="button"] {
+    background-color: #7878c6;
+    float: right; 
+  clear: both;
+
+}
