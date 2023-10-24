@@ -148,7 +148,6 @@ p{
     width: 400px;
     height: 200px;
     
-
 }
 
 .staff figcaption{
@@ -226,7 +225,7 @@ h2{
   input[type='button'] {
     background-color: #7878c6;
     justify-self: start;
-    margin-left: 175px; 
+
   }
   
   input[type="checkbox"] {
@@ -281,7 +280,6 @@ body {
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
-
 }
 
 .home fieldset{
@@ -305,6 +303,8 @@ body {
 
 .home input[type="button"] {
     background-color: #606C38;
+    margin-top: 10px;
+    margin-left: 80px;
 
 }
 
