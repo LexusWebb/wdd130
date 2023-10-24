@@ -185,9 +185,9 @@ h2{
   }
 
   form {
-    width: 400px;
+    width: 300px;
     margin: 0;
-    padding: 1rem;
+    padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
@@ -203,7 +203,7 @@ h2{
     grid-gap: 0.5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: 10px;
   }
   
   label {
@@ -236,4 +236,161 @@ h2{
     width: 10px;
 }
   
-  
+/*Home css*/ 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    position: relative;
+    width: 1500px;
+    max-width: 800px;
+}
+
+
+.banner img {
+    width: 1600px;
+    height: 400px;
+}
+
+.image-caption {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.image-caption h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/*Home form*/
+.home form{
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+
+}
+
+.home fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+
+}
+
+.home label{
+    text-align: left;
+    padding-right: 1rem;
+}
+
+.home input, select, textarea, radio {
+    padding: 0.7rem;
+    font-size: 1.1rem;
+}
+
+.home input[type="button"] {
+    background-color: #606C38;
+
+}
+
+.home h2{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+.content-column {
+    width: 50%; /* Adjust the width as needed */
+    float: left; /* Float the content to the left side */
+    padding: 30px; 
+    font-size: large;
+}
+
+h5{
+    text-align: center;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.deals{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    list-style: none;
+}
+
+.deals img{
+    width: 350px;
+    height: 200px;
+}
+
+.deals figcaption{
+    text-wrap: wrap;
+    width: 350px;
+    text-align: center;
+}
+
+/*trips css*/
+
+table{ 
+    float: right;
+    margin-top: -680px; /* Adjust the margin as needed to position the table at the top */
+    border-collapse: collapse;
+    width: 550px;
+    text-align: center;
+    
+}
+ 
+
+table,
+td {
+  border: 1px solid #BC6C25;
+  width: 800px;
+  margin-right: 100px;
+  margin-top: -850px;
+
+}
+thead,
+tfoot {
+  background-color: #606C38;
+  color: #fff;
+}
+
+.popular{
+    list-style: none;
+}
+
+h7{
+   font-size: larger; 
+   text-decoration: underline;
+   padding-left: 137px;
+}
+
+.popular img{
+    width: 300px;
+}
+
+.popular figcaption{
+    text-wrap: wrap;
+    width: 300px;
+}
+
+.booking p{
+    padding: 30px;
+    font-size: larger;
+}
