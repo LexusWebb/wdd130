@@ -355,7 +355,11 @@ table{
     text-align: center;
     
 }
- 
+.booking h6{
+    font-size: larger;
+    margin-left: 150px;
+    text-decoration: underline;
+}
 
 table,
 td {
